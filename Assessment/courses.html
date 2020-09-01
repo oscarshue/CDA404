@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Italiwalls Courses</title>
+        <link href="stylesheets/stylesheet.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+            function openSubscription(){
+                var subscriptionPopUp = document.getElementById("subscriptionPopUp");
+                subscriptionPopUp.style.display = "block";
+            }
+
+            function closePopUp(){
+                var subscriptionPopUp = document.getElementById("subscriptionPopUp");
+                subscriptionPopUp.style.display = "none";
+            }
+        </script>
+    </head>
+    <body>
+        <nav>
+            <img id="italiwallsLogo" src="images/italiwallsLogo.png"/>
+            <div id="navLinkContainer">
+                <a class="navLink" href="index.html">Home</a>
+                <a class="navLink" href="gallery.html">Gallery</a>
+                <a class="navLink" href="reviews.html">Reviews</a>
+                <a class="navLink" href="courses.html">Courses</a>
+            </div>            
+        </nav>
+        <div id="page-container">
+            <div id="content-wrap">
+                <div id="courseContainers">
+                    <div class="course" id="course1">
+                        <img class="coursePhoto" src="images/course1Image.jpg"/>
+                        <div class="courseDetails">
+                            <h3 class="courseHeading">The Ultimate Guide (FREE)</h3>
+                            <p class="courseCost">FREE</p>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img class="coursePhoto" src="images/coursePhoto2.png"/>
+                        <div class="courseDetails">
+                            <h3 class="courseHeading">The Ultimate Guide</h3>
+                            <p class="courseCost">£1,200</p>
+                        </div>
+                    </div>
+                    <div id="subscriptionBox">
+                        <h3>Subscribe For More:</h3>
+                        <button id="openSubscription" onclick="openSubscription()">Subscribe</button>
+                    </div>
+                    <div id="subscriptionPopUp">
+                        <form id="subscriptionForm">
+                            <p class="fa fa-remove" onclick="closePopUp()"></p>
+                            <h2 class="formHeader">Subscribe</h2>
+                            <h4 class="formHeader">For Exclusive Italiwalls Offers and Newsletters</h4>
+                            <div id="nameContainer">
+                                <p id="subscriptionName">Name:</p>
+                                <input type="text" placeholder="Type Name Here" />
+                            </div>
+                            <div id="emailContainer">
+                                <p id="subscriptionEmail">Email:</p>
+                                <input type="email" placeholder="Type Email Here"/>
+                            </div>
+                            <button id="subscriptionBtn" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer id="footer">
+                <div id="contactDetails">
+                    <p id="contactUsHeader">Contact Us:</p>
+                    <div id="socialMediaLinks">
+                        <a href="https://www.facebook.com/italiwalls/" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/italiwalls/" class="fa fa-instagram"></a>
+                        <a href="tel:07387081744" class="fa fa-phone"></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

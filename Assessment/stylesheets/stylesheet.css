@@ -1,0 +1,395 @@
+body {
+    margin: 0px;
+}
+
+/* Nav Bar CSS */
+nav{
+    background-color: lightslategray;
+    height: 125px;
+}
+
+#italiwallsLogo{
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+}
+
+#navLinkContainer{
+    float: right;
+    padding-top: 50px;
+}
+
+.navLink{
+    color: white;
+    padding-right: 50px;
+    font-size: 25px;
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none;
+}
+
+.navLink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Footer CSS */
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background-color: lightslategray;
+}
+
+#contactDetails{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#contactUsHeader{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+/* Page Container CSS */
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 150px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Index CSS */
+#headingGroup{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+#italiwallsDetails{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+#italiwallsTraining{
+    font-family: 'Questrial', sans-serif;
+}
+
+#exclusiveTraining{
+    width: 45%;
+    margin-right: 20%;
+    float: left;
+}
+
+#exclusiveTraining h3{
+    text-align: center;
+}
+
+#exclusiveTraining li{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+#homepageImageContainer{
+    display: inline-block;
+}
+
+#homepageImage{
+    width: 300px;
+    height: 300px;
+}
+
+/* Gallery CSS */
+.galleryImage{
+    height: 150px;
+    width: 250px;
+}
+
+#galleryHeadings{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+#imageRow1{
+    width: 90%;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: auto;
+}
+
+#imageRow2{
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 200px;
+    padding-bottom: 200px;
+}
+
+.imageAndTagContainer{
+    float: left;
+    margin-right: 15px;
+}
+
+.imageTag{
+    font-family: 'Questrial', sans-serif;
+}
+
+/* Reviews CSS */
+#reviewHeadings{
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+.reviewTitle{
+    font-family: 'Questrial', sans-serif;
+}
+
+.reviewAndRatingContainer{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 4px lightgray;
+    width: 25%;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.reviewAndRatingContainer:hover{
+    cursor: pointer;
+}
+
+#reviewRow1{
+    width: 90%;
+    margin-left: auto;
+    text-align: center;
+}
+
+#reviewRow2{
+    width: 90%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.reviewRating{
+    margin-bottom: 20px;
+}
+
+.reviewRating p{
+    margin: 0px;
+    padding: 0px;
+}
+
+#reviewPopUpID {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+#reviewPopUpContent {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+#popUpReviewTitle{
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+#popUpReviewContent{
+    font-family: 'Questrial', sans-serif;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Courses CSS */
+#courseContainers{
+    width: 95%;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+#course1{
+    margin-right: 15%;
+}
+
+.coursePhoto{
+    width: 350px;
+    height: 250px;
+}
+
+.course{
+    float: left;
+    border: 1px solid black;
+    box-shadow: 7px 12px 4px lightgrey;
+    margin-bottom: 50px;
+}
+
+.courseHeading{
+    font-family: 'Questrial', sans-serif;
+    float: left;
+    margin-left: 20px;
+}
+
+.courseCost{
+    font-family: 'Questrial', sans-serif;
+    float: left;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+
+#subscriptionBox{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+}
+
+#subscriptionPopUp{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+#subscriptionForm{
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+.formHeader{
+    text-align: center;
+}
+
+#nameContainer{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#subscriptionName{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#emailContainer{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#subscriptionBox{
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+#openSubscription{
+    background-color: white;
+    color: black;
+    border: 2px solid lightgrey;
+    transition-duration: 0.4s;
+    font-family: 'Questrial', sans-serif;
+    width: 80px;
+    height: 30px;
+}
+
+#openSubscription:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+#subscriptionEmail{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#subscriptionBtn{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid lightgrey;
+    transition-duration: 0.4s;
+    font-family: 'Questrial', sans-serif;
+    width: 80px;
+    height: 30px;
+}
+
+#subscriptionBtn:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+/* Glyphicon CSS */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    width: 20px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #C13584;
+    color: white;
+}
+
+.fa-phone {
+    background: #25d366;
+    color: white;
+}
+
+.fa-remove{
+    float: right;
+    margin: 5px, 5px, 0px, 0px;
+    padding: 0px;
+}
+
+.fa-remove:hover{
+    cursor: pointer;
+    color: red;
+}

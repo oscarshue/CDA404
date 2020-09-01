@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Italiwalls Reviews</title>
+        <link href="stylesheets/stylesheet.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+            function popUpDisplay(assignedReview){
+                var popUp = document.getElementById("reviewPopUpID");
+                if(assignedReview == 'review1'){
+                    document.getElementById("popUpReviewTitle").innerHTML = "Great Course!";
+                    document.getElementById("popUpReviewContent").innerHTML = "Great course! Weather you have a plastering background or not! Even before I enrolled on the course Tom was very helpful and his knowledge is second to none! He's always at the end of the phone if your ever in doubt or need to ask a simple question!";
+                } else if(assignedReview == 'review2'){
+                    document.getElementById("popUpReviewTitle").innerHTML = "Excellent, Easy to Follow";
+                    document.getElementById("popUpReviewContent").innerHTML = "Tom, delivers an excellent, easy to follow step by step guide to venetian plastering. He gives you inside knowledge that no other course offers. The most important thing for me is the constant support network not only from Tom but, the private Facebook group all students use. The support is overwhelmingly positive and everyone helps each other understand where they have gone wrong or, share information about work they have completed. I cannot rate this course and Tom enough.";
+                } else if(assignedReview == 'review3'){
+                    document.getElementById("popUpReviewTitle").innerHTML = "Extremely Happy";
+                    document.getElementById("popUpReviewContent").innerHTML = "I am extremely happy with my decision to purchase Toms online Venetian plastering course. The content is well planned out and everything is explained very well. The welcome pack and tools you receive are great and there is always help with Tom being just a message away on WhatsApp and is always happy to help. The Facebook group is also a great touch with other students also learning and willing to help. I am really enjoying this course and would highly recommend to anyone that is interested in doing this.";
+                } else if(assignedReview == 'review4'){
+                    document.getElementById("popUpReviewTitle").innerHTML = "Highly Recommended";
+                    document.getElementById("popUpReviewContent").innerHTML = "Even before I enrolled in the course Tom was available to help with questions & concerns by message or phone! Receiving my welcome package was quick and full of kit to learn everything the course offers. Once I started the course I couldnt stop as the videos and content was really fun and extremely easy to follow. Tom is always on hand to pick his brains and checks up regularly to see how things are going 5 star fellow 10/10 course highly recommended.";
+                } else if(assignedReview == 'review5'){
+                    document.getElementById("popUpReviewTitle").innerHTML = "Amazing Online Course"
+                    document.getElementById("popUpReviewContent").innerHTML = "Amazing online course. All videos are very helpful and tom is always on the other end of the phone. Highly recommended";
+                } else if(assignedReview == 'review6'){
+                    document.getElementById("popUpReviewTitle").innerHTML = "Very Informative";
+                    document.getElementById("popUpReviewContent").innerHTML = "Italiwalls (Tom) was very informative and easy to chat too right from our very First phone conversation, the online course was easy to follow and Very Educational And the good thing is any problems he is always on the end of the phone.";
+                }
+
+                popUp.style.display = "block";
+            }
+
+            function closePopUp(){
+                var popUp = document.getElementById("reviewPopUpID");
+                popUp.style.display = "none";
+            }
+        </script>
+    </head>
+    <body>
+        <nav>
+            <img id="italiwallsLogo" src="images/italiwallsLogo.png"/>
+            <div id="navLinkContainer">
+                <a class="navLink" href="index.html">Home</a>
+                <a class="navLink" href="gallery.html">Gallery</a>
+                <a class="navLink" href="reviews.html">Reviews</a>
+                <a class="navLink" href="courses.html">Courses</a>
+            </div>            
+        </nav>
+        <div id="page-container">
+            <div id="content-wrap">
+                <div id="reviewHeadings">
+                    <h2>Check out our Genuine Google Positive Reviews</h2>
+                    <h3>From our Around the World Customers</h3>
+                </div>
+                <div id="reviewRow1">
+                    <div class="reviewAndRatingContainer" id="review1" onclick="popUpDisplay('review1')">
+                        <h4 class="reviewTitle">Great Course!</h4>
+                        <div class="reviewRating">
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                        </div>
+                    </div>
+                    <div class="reviewAndRatingContainer" id="review2" onclick="popUpDisplay('review2')">
+                        <h4 class="reviewTitle">Excellent, Easy to Follow</h4>
+                        <div class="reviewRating">
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                        </div>
+                    </div>
+                    <div class="reviewAndRatingContainer" id="review3" onclick="popUpDisplay('review3')">
+                        <h4 class="reviewTitle">Extremely Happy</h4>
+                        <div class="reviewRating">
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="reviewRow2">
+                    <div class="reviewAndRatingContainer" id="review4" onclick="popUpDisplay('review4')">
+                        <h4 class="reviewTitle">Highly Recommended</h4>
+                        <div class="reviewRating">
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                        </div>
+                    </div>
+                    <div class="reviewAndRatingContainer" id="review5" onclick="popUpDisplay('review5')">
+                        <h4 class="reviewTitle">Amazing Online Course</h4>
+                        <div class="reviewRating">
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                        </div>
+                    </div>
+                    <div class="reviewAndRatingContainer" id="review6" onclick="popUpDisplay('review6')">
+                        <h4 class="reviewTitle">Very Informative</h4>
+                        <div class="reviewRating">
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                            <p class="fa fa-star"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="reviewPopUpID">  
+                    <div id="reviewPopUpContent">
+                        <p class="fa fa-remove" onclick="closePopUp()"></p>
+                        <div id="reviewPopUpContainer">
+                        <h3 id="popUpReviewTitle">Review Title</h3>
+                        <p id="popUpReviewContent">Review Content</p>
+                      </div>                  
+                    </div>
+                </div>
+            </div>
+            <footer id="footer">
+                <div id="contactDetails">
+                    <p id="contactUsHeader">Contact Us:</p>
+                    <div id="socialMediaLinks">
+                        <a href="https://www.facebook.com/italiwalls/" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/italiwalls/" class="fa fa-instagram"></a>
+                        <a href="tel:07387081744" class="fa fa-phone"></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
