@@ -1,1 +1,5 @@
-
+Background
+The background of this task is creating an informative site to teach skills to customers that are interested in learning the art of Venetian Plastering. I have attempted to solve this issue by creating a website that contains information related to the offered Venetian Plastering courses that are provided by a friends business; as well as the general information provided by the website, it also includes genuine google customer reviews and feedback, images of work completed by students after they've enrolled and completed the course, and finally the actual courses on offer themselves.
+Wire Frames
+I have created wire frames for each of the four pages before development to design and layout each of the pages I have created, these wireframes have assisted in development by allowing me to essentially follow along and create each page in a step by step process by comparing progress against the wireframes. As the wireframes were drawn out before development, they won't be exactly the same as the finished product as during development of the site I would have thought of different ways to produce the same results in a more stylish and user friendly way than the original wireframes presented. You can find the wireframes in the GitHub repository here: https://github.com/oscarshue/CDA404/tree/master/Assessment/wireframes
+Colour Choices
